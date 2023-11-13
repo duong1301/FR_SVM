@@ -1,0 +1,131 @@
+/*Reset CSS*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON*/
+.clear {
+    clear: both;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-full{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.col-half {
+    padding-left:6px;
+    padding-right:6px;
+    width: 50%;
+    height:500px;
+    background-color:rgba(0.1,0.1,0.1,0.1);
+    border: 1px solid #000;
+    position: relative;
+    /*align-item: center;
+    text-align: center;*/
+}
+
+
+/* MAIN */
+html {
+    scroll-behavior: smooth !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+    width:100%;
+    right: 0;
+    left: 0;
+    height: 60px;
+    background-color: #000;
+    position: relative;
+    align-item: center;
+    text-align: center;
+    display:flex;
+}
+.header-label {
+    margin-top:10px;
+    display: inline-block;
+    position:absolute;
+    color:#fff;
+    height:100%;
+    width:100%;
+}
+.container {
+    width:80%;
+    top:50px;
+    position: absolute;
+    right: 10%;
+}
+.info-row{
+    margin:20px;
+    display:flex;
+
+}
+.info-list{
+    list-style: none;
+}
+.info-out{
+    padding: 11px;
+    border: 1px solid #ccc;
+    width: 70%;
+    right:30px;
+    position: absolute;
+}
+.btnCapture {
+    background-color: #ccc;
+    color: #fff;
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin: 16px 0;
+    border: 1px solid #000;
+    appearance:none;
+    -webkit-appearance:none;
+     -webkit-border-radius:none;
+    top: 420px;
+    right:30px;
+    position: absolute;
+}
+.btnCapture:hover {
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+    border: none;
+}
+.btnSOS {
+    background-color: #ccc;
+    color: #fff;
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin: 16px 0;
+    border: 1px solid #000;
+    appearance:none;
+    -webkit-appearance:none;
+     -webkit-border-radius:none;
+    top: 420px;
+    right:150px;
+    position: absolute;
+}
+.btnSOS:hover {
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+    border: none;
+}
+.video_webcam{
+    position: absolute;
+    top:10px;
+    border: 1px solid #000;
+    width:90%;
+    height:420px;
+    right:30px;
+}
